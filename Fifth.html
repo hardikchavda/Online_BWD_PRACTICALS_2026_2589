@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <!-- JPG => Rasterize == Color in every Pixel(Fixed) -->
+    <!-- SVG,PNG => Vector == Color in every Pixel(viewport)  -->
+    <audio controls>
+        <!-- Only Open source extention ENC and DEC -->
+        <source src="horse.ogg" type="audio/ogg">
+        <source src="horse.mp3" type="audio/mpeg">
+        <!-- <source src="horse.wma" type="audio/mpeg"> -->
+        <!-- <source src="horse.mov" type="audio/mpeg"> -->
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- <video width="320" height="240" controls>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+    </video> -->
+
+
+    <form action="">
+
+        <input type="date">
+        <input type="time">
+
+    </form>
+
+    <canvas id="myCanvas" width="300" height="150" style="border:1px solid grey"></canvas>
+
+
+    <!-- Javascript -->
+    <script>
+        let canvas = document.getElementById("myCanvas");
+        let ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#FF0000";
+        ctx.fillRect(0, 0, 200, 100);
+    </script>
+
+    <img resource="https://en.wikipedia.org/wiki/File:SVG_Logo.svg" decoding="async" loading="lazy"
+        srcset="//thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/SVG_Logo.svg/250px-SVG_Logo.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x"
+        height="100" width="100">
+
+    <!-- Web Semnatics   -->
+    <!-- Tags which are name for specific purpose in HTML -->
+    <!-- area, aside, section, header, footer -->
+
+
+</body>
+
+</html>
+
+<!-- Project Title -->
+<!-- Project Desciption -->
+
+<!-- HTML + CSS + Bootstrap +JS -->
